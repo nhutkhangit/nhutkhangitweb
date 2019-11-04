@@ -43,14 +43,22 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*
         'urlManager' => [
-            'enablePrettyUrl' => true,
-            'showScriptName' => false,
-            'rules' => [
-            ],
+	        'class' => 'yii\web\UrlManager',
+	        'showScriptName' => FALSE,
+	        'enablePrettyUrl' => TRUE,
+	        'rules' => [
+		        '<controller:[a-z0-9\-]+>/<id:\d+>' => '<controller>/index',
+		        '<controller:[a-z0-9\-]+>' => '<controller>/index',
+		        '<controller:[a-z0-9\-]+>/<action:[a-z0-9\-]+>/<id:\d+>' => '<controller>/<action>',
+		        '<controller:[a-z0-9\-]+>/<action:[a-z0-9\-]+>' => '<controller>/<action>',
+
+		        '<module:[a-z0-9\-]+>/<controller:[a-z0-9\-]+>/<id:\d+>' => '<module>/<controller>/index',
+		        '<module:[a-z0-9\-]+>/<controller:[a-z0-9\-]+>' => '<module>/<controller>/index',
+		        '<module:[a-z0-9\-]+>/<controller:[a-z0-9\-]+>/<action:[a-z0-9\-]+>/<id:\d+>' => '<module>/<controller>/<action>',
+		        '<module:[a-z0-9\-]+>/<controller:[a-z0-9\-]+>/<action:[a-z0-9\-]+>' => '<module>/<controller>/<action>',
+	        ],
         ],
-        */
     ],
     'params' => $params,
 ];
