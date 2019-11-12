@@ -10,6 +10,7 @@ use yii\helpers\Html;
 use yii\helpers\Url;
 
 $this->title = Yii::$app->name;
+echo Yii::$app->user->identity->username;
 ?>
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
