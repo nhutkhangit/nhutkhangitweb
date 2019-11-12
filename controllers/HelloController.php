@@ -7,5 +7,4 @@
 			 return $this->render('index');
 		}
 	}
-
 ?>
