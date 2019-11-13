@@ -30,7 +30,7 @@ AppAsset::register($this);
 <div class="wrap">
 	<?php
 	NavBar::begin([
-		'brandLabel' => Yii::$app->name,
+		'brandLabel' => 'NhutKhangIT.xyz',
 		'brandUrl'   => Yii::$app->homeUrl,
 		'options'    => [
 			'class' => 'navbar navbar-expand-lg navbar-light bg-light test-class',
@@ -38,7 +38,7 @@ AppAsset::register($this);
         'brandOptions' => ['class' => 'test-class']
 	]);
 	echo Nav::widget([
-		'options' => ['class' => 'navbar-nav navbar-right'],
+		'options' => ['class' => 'navbar-nav navbar-right custom-nav'],
 		'items'   => [
 			['label' => 'Home', 'url' => ['/site/index']],
 			['label' => 'About', 'url' => ['/site/about']],

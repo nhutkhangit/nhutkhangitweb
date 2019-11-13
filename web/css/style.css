@@ -1,6 +1,14 @@
 @charset "UTF-8";
 .test-class {
-  color: green;
+  font-weight: bold;
+}
+
+.custom-nav {
+  margin-left: auto;
+}
+
+.custom-nav .nav-item {
+  padding: 0 1rem;
 }
 
 /* Outer-Wrapper----------------------------------------------- */
