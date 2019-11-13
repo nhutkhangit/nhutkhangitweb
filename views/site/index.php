@@ -32,34 +32,34 @@ $this->title = 'Nhựt Khang IT';
                             <meta content="http://3.bp.blogspot.com/-xUiI8Gt_QyM/VmgGaFQcp3I/AAAAAAAAIrY/pmC0lS28CWI/s1600/btemplates-aquarium-by-francisco-oliveros.jpg" itemprop="image">
                             <a name="2219512222971299624"></a>
                             <h3 class="post-title entry-title" itemprop="headline">
-                                <a href="https://greatmag-btemplates.blogspot.com/2016/07/demo-post-with-formatted-elements-and.html">Demo post with formatted elements and comments.</a>
+                                <a href="#">Demo post with formatted elements and comments.</a>
                             </h3>
                             <div class="post-header-line-1"></div>
                             <div class="postmeta-primary">
                     <span class="meta_author post-author vcard">
                         <span class="fn" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
-                            <meta content="https://www.blogger.com/profile/11448038113626124391" itemprop="url">
-                                <a class="g-profile" href="https://www.blogger.com/profile/11448038113626124391" rel="author" title="author profile" data-gapiscan="true" data-onload="true" data-gapiattached="true">
+                            <meta content="" itemprop="url">
+                                <a class="g-profile" href="#" rel="author" title="author profile" data-gapiscan="true" data-onload="true" data-gapiattached="true">
                                     <span itemprop="name">BTemplates</span>
                                 </a>
                         </span>
                     </span>
-                                <meta content="http://greatmag-btemplates.blogspot.com/2016/07/demo-post-with-formatted-elements-and.html" itemprop="url">
+                                <meta content="" itemprop="url">
                                 <span class="meta_date">
-                        <a class="timestamp-link" href="https://greatmag-btemplates.blogspot.com/2016/07/demo-post-with-formatted-elements-and.html" rel="bookmark" title="permanent link">
+                        <a class="timestamp-link" href="#" rel="bookmark" title="permanent link">
                             <span class="published updated" itemprop="datePublished" title="2016-07-25T07:40:00-07:00">7:40 AM</span>
                         </a>
                     </span>
                                 <span class="meta_categories">
-                        <a href="https://greatmag-btemplates.blogspot.com/search/label/Blogger" rel="tag">Blogger</a>,
-                        <a href="https://greatmag-btemplates.blogspot.com/search/label/Images" rel="tag">Images</a>,
-                        <a href="https://greatmag-btemplates.blogspot.com/search/label/Tag" rel="tag">Tag</a>
+                        <a href="#" rel="tag">Blogger</a>,
+                        <a href="#" rel="tag">Images</a>,
+                        <a href="#" rel="tag">Tag</a>
                     </span>
                                 <span class="meta_comments">
-                        <a class="comment-link" href="https://greatmag-btemplates.blogspot.com/2016/07/demo-post-with-formatted-elements-and.html#comment-form" onclick="">3 comments</a>
+                        <a class="comment-link" href="#" onclick="">3 comments</a>
                     </span>
                                 <span class="item-control blog-admin pid-533320333">
-                        <a href="https://www.blogger.com/post-edit.g?blogID=7691382490950740003&amp;postID=2219512222971299624&amp;from=pencil" title="Edit Post">
+                        <a href="#" title="Edit Post">
                             <img alt="" class="icon-action" height="18" src="https://img2.blogblog.com/img/icon18_edit_allbkg.gif" width="18">
                         </a>
                     </span>
@@ -95,16 +95,16 @@ $this->title = 'Nhựt Khang IT';
 			?>
             <div class="blog-pager" id="blog-pager">
                 <span id="blog-pager-older-link">
-                    <a class="blog-pager-older-link" href="https://greatmag-btemplates.blogspot.com/search?updated-max=2016-07-25T07:40:00-07:00&amp;max-results=7" id="Blog1_blog-pager-older-link" title="Older Posts">Older Posts&nbsp;→</a>
+                    <a class="blog-pager-older-link" href="#" id="" title="Older Posts">Older Posts&nbsp;→</a>
                 </span>
-                <a class="home-link" href="https://greatmag-btemplates.blogspot.com/">Home</a>
+                <a class="home-link" href="http://nhutkhangit.xyz/">Home</a>
             </div>
         </div>
         <div class="col-lg-4">
             <div id="rsidebar-wrapper">
                 <div class="widget-container">
                     <div id="search" title="Type and hit enter">
-                        <form action="https://greatmag-btemplates.blogspot.com/search/" id="searchform" method="get">
+                        <form action="http://nhutkhangit.xyz/" id="searchform" method="get">
                             <input id="s" name="q" onblur="if (this.value == &quot{;
 }&quot;) {this.value = &quot;Search&quot;;}" onfocus="if (this.value == &quot{;
 }Search&quot;) {this.value = &quot;&quot;;}" type="text" value="Search">
@@ -147,12 +147,12 @@ $this->title = 'Nhựt Khang IT';
                                     <li>
                                         <div class="item-thumbnail-only">
                                             <div class="item-thumbnail">
-                                                <a href="https://greatmag-btemplates.blogspot.com/2016/07/demo-post-with-formatted-elements-and.html" target="_blank">
+                                                <a href="#" target="_blank">
                                                     <img alt="" border="0" src="//3.bp.blogspot.com/-xUiI8Gt_QyM/VmgGaFQcp3I/AAAAAAAAIrY/pmC0lS28CWI/w72-h72-p-k-no-nu/btemplates-aquarium-by-francisco-oliveros.jpg">
                                                 </a>
                                             </div>
                                             <div class="item-title">
-                                                <a href="https://greatmag-btemplates.blogspot.com/2016/07/demo-post-with-formatted-elements-and.html">Demo post with formatted elements and comments.</a>
+                                                <a href="#">Demo post with formatted elements and comments.</a>
                                             </div>
                                         </div>
                                         <div style="clear: both;"></div>
@@ -160,12 +160,12 @@ $this->title = 'Nhựt Khang IT';
                                     <li>
                                         <div class="item-thumbnail-only">
                                             <div class="item-thumbnail">
-                                                <a href="https://greatmag-btemplates.blogspot.com/2016/07/images-in-this-template.html" target="_blank">
+                                                <a href="#" target="_blank">
                                                     <img alt="" border="0" src="//3.bp.blogspot.com/-NB5XuDN1Ez8/VmgswVBbFMI/AAAAAAAAIsc/FLz68dJe2cU/w72-h72-p-k-no-nu/btemplates-china-by-francisco-oliveros.jpg">
                                                 </a>
                                             </div>
                                             <div class="item-title">
-                                                <a href="https://greatmag-btemplates.blogspot.com/2016/07/images-in-this-template.html">Images in this template.</a>
+                                                <a href="#">Images in this template.</a>
                                             </div>
                                         </div>
                                         <div style="clear: both;"></div>
