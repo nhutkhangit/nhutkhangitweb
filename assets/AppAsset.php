@@ -21,8 +21,12 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         'css/site.css',
+	    'css/style.css',
     ];
     public $js = [
+    	'js/customjs.js',
+	    'js/vue.js',
+	    'js/vue-carousel-3d.min.js',
     ];
     public $depends = [
 	    'yii\web\YiiAsset',
