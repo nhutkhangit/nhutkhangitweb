@@ -24,9 +24,7 @@ class AppAsset extends AssetBundle
 	    'css/style.css',
     ];
     public $js = [
-    	'js/customjs.js',
-	    'js/vue.js',
-	    'js/vue-carousel-3d.min.js',
+
     ];
     public $depends = [
 	    'yii\web\YiiAsset',

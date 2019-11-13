@@ -10,48 +10,13 @@ use app\assets\SliderAsset;
 use yii\helpers\Html;
 use yii\helpers\Url;
 
-$this->title = Yii::$app->name;
+$this->title = 'Nhựt Khang IT';
 ?>
 <meta property="og:url" content="http://nhutkhangit.xyz/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Home | Nhựt Khang IT">
 <meta property="og:description" content="Wellcome to NhutKhangit.xyz!">
-<meta property="og:image" content="https://venue-blog-prod.s3.amazonaws.com/blog/wp-content/uploads/2019/10/1-1024x576.jpg">
-<div id="carousel3d">
-    <carousel-3d :perspective="0" :space="200" :display="5" :controls-visible="true" :controls-prev-html="'❬'" :controls-next-html="'❭'" :controls-width="30" :controls-height="60" :clickable="true" :autoplay="true" :autoplay-timeout="5000">
-        <slide :index="0">
-            <img src="https://venue-blog-prod.s3.amazonaws.com/blog/wp-content/uploads/2019/10/1-1024x576.jpg">
-        </slide>
-        <slide :index="1">
-            <img src="https://venue-blog-prod.s3.amazonaws.com/blog/wp-content/uploads/2019/10/1-1024x576.jpg">
-        </slide>
-        <slide :index="2">
-            <img src="https://venue-blog-prod.s3.amazonaws.com/blog/wp-content/uploads/2019/10/1-1024x576.jpg">
-        </slide>
-        <slide :index="3">
-            <img src="https://venue-blog-prod.s3.amazonaws.com/blog/wp-content/uploads/2019/10/1-1024x576.jpg">
-        </slide>
-        <slide :index="4">
-            <img src="https://venue-blog-prod.s3.amazonaws.com/blog/wp-content/uploads/2019/10/1-1024x576.jpg">
-        </slide>
-
-    </carousel-3d>
-</div>
-<!--<script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script>-->
-<!--<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.7/vue.js'></script>-->
-<!--<script src='https://rawgit.com/Wlada/vue-carousel-3d/master/dist/vue-carousel-3d.min.js'></script>-->
-<script>new Vue({
-    el: '#carousel3d',
-    data: {
-        slides: 7
-    },
-    components: {
-        'carousel-3d': Carousel3d.Carousel3d,
-        'slide': Carousel3d.Slide
-    }
-})
-//# sourceURL=pen.js
-</script><!--<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">--><!--    <div class="carousel-inner">--><!--        <div class="carousel-item active">--><!--            <img class="d-block w-100" src="https://venue-blog-prod.s3.amazonaws.com/blog/wp-content/uploads/2019/10/1-1024x576.jpg" alt="First slide">--><!--        </div>--><!--        <div class="carousel-item">--><!--            <img class="d-block w-100" src="https://venue-blog-prod.s3.amazonaws.com/blog/wp-content/uploads/2019/10/1-1024x576.jpg" alt="Second slide">--><!--        </div>--><!--        <div class="carousel-item">--><!--            <img class="d-block w-100" src="https://venue-blog-prod.s3.amazonaws.com/blog/wp-content/uploads/2019/10/1-1024x576.jpg" alt="Third slide">--><!--        </div>--><!--    </div>--><!--    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">--><!--        <span class="carousel-control-prev-icon" aria-hidden="true"></span>--><!--        <span class="sr-only">Previous</span>--><!--    </a>--><!--    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">--><!--        <span class="carousel-control-next-icon" aria-hidden="true"></span>--><!--        <span class="sr-only">Next</span>--><!--    </a>--><!--</div>-->
+<meta property="og:image" content="http://nhutkhangit.xyz/images/banner.jpg">
 
 <div class="container">
     <div class="row">
