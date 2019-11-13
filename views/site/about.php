@@ -26,16 +26,16 @@ $this->params['breadcrumbs'][] = $this->title;
         </div>
         <div class="col-6">
             <div class="alert alert-secondary">
-                <strong>Nông dân</strong>
+                <strong>Nhựt Khang Liên</strong>
             </div>
             <div class="alert alert-secondary">
-                <strong>Chịch chịch</strong>
+                <strong>Cà Mau</strong>
             </div>
             <div class="alert alert-secondary">
-                <strong>0026789999</strong>
+                <strong>0817233044</strong>
             </div>
             <div class="alert alert-secondary">
-                <strong>bee ham chơi</strong>
+                <strong>Nhutkhangit.xyz</strong>
             </div>
             <div class="alert alert-secondary">
                 <strong>Việt Nam</strong>
