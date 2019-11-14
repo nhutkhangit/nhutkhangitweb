@@ -30,20 +30,20 @@ $this->title = 'Nhựt Khang IT';
                     <div class="wrapfullpost">
                         <div class="post hentry">
                             <meta content="http://3.bp.blogspot.com/-xUiI8Gt_QyM/VmgGaFQcp3I/AAAAAAAAIrY/pmC0lS28CWI/s1600/btemplates-aquarium-by-francisco-oliveros.jpg" itemprop="image">
-                            <a name="2219512222971299624"></a>
+                            <a name=""></a>
                             <h3 class="post-title entry-title" itemprop="headline">
                                 <a href="#">Demo post with formatted elements and comments.</a>
                             </h3>
                             <div class="post-header-line-1"></div>
                             <div class="postmeta-primary">
-                    <span class="meta_author post-author vcard">
-                        <span class="fn" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
-                            <meta content="" itemprop="url">
-                                <a class="g-profile" href="#" rel="author" title="author profile" data-gapiscan="true" data-onload="true" data-gapiattached="true">
-                                    <span itemprop="name">BTemplates</span>
-                                </a>
-                        </span>
-                    </span>
+                                <span class="meta_author post-author vcard">
+                                    <span class="fn" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
+                                        <meta content="" itemprop="url">
+                                            <a class="g-profile" href="#" rel="author" title="author profile" data-gapiscan="true" data-onload="true" data-gapiattached="true">
+                                                <span itemprop="name">BTemplates</span>
+                                            </a>
+                                    </span>
+                                </span>
                                 <meta content="" itemprop="url">
                                 <span class="meta_date">
                         <a class="timestamp-link" href="#" rel="bookmark" title="permanent link">
@@ -64,8 +64,8 @@ $this->title = 'Nhựt Khang IT';
                         </a>
                     </span>
                             </div>
-                            <div class="post-body entry-content" id="post-body-2219512222971299624">
-                                <div id="summary2219512222971299624">
+                            <div class="post-body entry-content" id="">
+                                <div id="">
                                     <img src="https://3.bp.blogspot.com/-xUiI8Gt_QyM/VmgGaFQcp3I/AAAAAAAAIrY/pmC0lS28CWI/s1600/btemplates-aquarium-by-francisco-oliveros.jpg" class="pbtthumbimg">
                                     <div> Aquarium. Photo by Francisco.GreatMag is the template number 4663 in BTemplates, where a total of 51 230 624 templates has been downloaded so far since 2008. This template was created by PBTemplates and is the 611th template published in BTemplates.com by this author.Download...</div>
                                 </div>
@@ -74,7 +74,7 @@ $this->title = 'Nhựt Khang IT';
                                 </script>
                                 <div class="pbtsharethisbutt">
                                     Share:
-                                    <a href="https://www.facebook.com/share.php?v=4&amp;src=bm&amp;u=&amp;t=Demo post with formatted elements and comments." onclick="window.open(this.href,&quot;sharer&quot;,&quot;toolbar=0,status=0,width=626,height=436&quot;); return false;" rel="nofollow" target="_blank" title="Share this on Facebook"><i class="fa fa-facebook"></i></a><a href="https://twitter.com/home?status=Demo post with formatted elements and comments. -- " rel="nofollow" target="_blank" title="Tweet This!"><i class="fa fa-twitter"></i></a><a href="https://plus.google.com/share?url=" onclick="javascript:window.open(this.href,   &quot;&quot;, &quot;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&quot;);return false;" rel="nofollow" target="_blank" title="Share this on Google+"><i class="fa fa-google-plus"></i></a><a class="social-iconnbt" href="https://pinterest.com/pin/create/button/?source_url=&amp;media=http://3.bp.blogspot.com/-xUiI8Gt_QyM/VmgGaFQcp3I/AAAAAAAAIrY/pmC0lS28CWI/s1600/btemplates-aquarium-by-francisco-oliveros.jpg&amp;description=Demo post with formatted elements and comments." rel="nofollow" target="_blank" title="Share on Pinterest"><i class="fa fa-pinterest"></i></a>
+                                    <a href="" onclick="window.open(this.href,&quot;sharer&quot;,&quot;toolbar=0,status=0,width=626,height=436&quot;); return false;" rel="nofollow" target="_blank" title="Share this on Facebook"><i class="fa fa-facebook"></i></a><a href="https://twitter.com/home?status=Demo post with formatted elements and comments. -- " rel="nofollow" target="_blank" title="Tweet This!"><i class="fa fa-twitter"></i></a><a href="https://plus.google.com/share?url=" onclick="javascript:window.open(this.href,   &quot;&quot;, &quot;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&quot;);return false;" rel="nofollow" target="_blank" title="Share this on Google+"><i class="fa fa-google-plus"></i></a><a class="social-iconnbt" href="https://pinterest.com/pin/create/button/?source_url=&amp;media=http://3.bp.blogspot.com/-xUiI8Gt_QyM/VmgGaFQcp3I/AAAAAAAAIrY/pmC0lS28CWI/s1600/btemplates-aquarium-by-francisco-oliveros.jpg&amp;description=Demo post with formatted elements and comments." rel="nofollow" target="_blank" title="Share on Pinterest"><i class="fa fa-pinterest"></i></a>
                                 </div>
                                 <div class="readmore">
                                     <a href="/?page=detail&id=1">Read More</a>
@@ -320,3 +320,4 @@ $this->title = 'Nhựt Khang IT';
 //	echo ceil($total/$days);
 //}
 //?>
+
