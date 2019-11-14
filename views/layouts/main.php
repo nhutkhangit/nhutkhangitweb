@@ -71,9 +71,8 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container copy-right">
-        <p class="col-lg-6 pull-left">&copy; Ahihi <?= date('Y') ?></p>
-<!--        <p class="col-lg-6 pull-left">&copy; My Company --><?//= date('Y') ?><!--</p>-->
-        <!--        <p class="col-lg-6 pull-right">--><? //= Yii::powered() ?><!--</p>-->
+        <div class="col-lg-6">&copy; <a class="web-name" href="http://nhutkhangit.xyz/">NhutKhangIT.xyz</a> <?= date('Y') ?></div>
+        <div class="col-lg-6 text-lg-right"><?= Yii::powered() ?></div>
     </div>
 </footer>
 
