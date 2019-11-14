@@ -35,7 +35,7 @@ AppAsset::register($this);
 		'options'    => [
 			'class' => 'navbar navbar-expand-lg navbar-light bg-light test-class',
 		],
-        'brandOptions' => ['class' => 'test-class']
+//        'brandOptions' => ['class' => 'test-class']
 	]);
 	echo Nav::widget([
 		'options' => ['class' => 'navbar-nav navbar-right custom-nav'],
@@ -48,8 +48,7 @@ AppAsset::register($this);
 			) : (
 				'<li>'
 				. Html::beginForm(['/site/logout'], 'post')
-				. Html::submitButton(
-					'Logout (' . Yii::$app->user->identity->username . ')',
+				. Html::submitButton(Yii::$app->user->identity->username ,
 					['class' => 'btn btn-link logout']
 				)
 				. Html::endForm()
