@@ -132,6 +132,11 @@ class SiteController extends Controller{
 		return $this->render('about');
 	}
 
+
+	public function actionDetail() {
+		return $this->render('detail');
+	}
+
 	/**
 	 * @return array|string|\yii\web\Response
 	 * @throws \yii\base\Exception

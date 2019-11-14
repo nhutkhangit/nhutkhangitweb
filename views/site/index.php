@@ -88,7 +88,7 @@ $this->title = 'Nhựt Khang IT';
                                     </a>
                                 </div>
                                 <div class="readmore">
-                                    <a href="/?page=detail&id=1">Read More</a>
+                                    <a href="/site/detail">Read More</a>
                                 </div>
                                 <div style="clear: both;"></div>
                             </div>
