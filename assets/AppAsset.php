@@ -25,6 +25,9 @@ class AppAsset extends AssetBundle
 	    'http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css',
         'css/site.css',
 	    'css/style.css',
+//	    'css/App.css',
+//	    'css/custom.css',
+//	    'css/login.css',
     ];
     public $js = [
 
