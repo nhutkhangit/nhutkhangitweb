@@ -1,6 +1,10 @@
 @charset "UTF-8";
 .test-class {
   font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 .custom-nav {
