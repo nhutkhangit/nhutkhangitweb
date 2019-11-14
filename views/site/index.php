@@ -74,7 +74,18 @@ $this->title = 'Nhựt Khang IT';
                                 </script>
                                 <div class="pbtsharethisbutt">
                                     Share:
-                                    <a href="" onclick="window.open(this.href,&quot;sharer&quot;,&quot;toolbar=0,status=0,width=626,height=436&quot;); return false;" rel="nofollow" target="_blank" title="Share this on Facebook"><i class="fa fa-facebook"></i></a><a href="https://twitter.com/home?status=Demo post with formatted elements and comments. -- " rel="nofollow" target="_blank" title="Tweet This!"><i class="fa fa-twitter"></i></a><a href="https://plus.google.com/share?url=" onclick="javascript:window.open(this.href,   &quot;&quot;, &quot;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&quot;);return false;" rel="nofollow" target="_blank" title="Share this on Google+"><i class="fa fa-google-plus"></i></a><a class="social-iconnbt" href="https://pinterest.com/pin/create/button/?source_url=&amp;media=http://3.bp.blogspot.com/-xUiI8Gt_QyM/VmgGaFQcp3I/AAAAAAAAIrY/pmC0lS28CWI/s1600/btemplates-aquarium-by-francisco-oliveros.jpg&amp;description=Demo post with formatted elements and comments." rel="nofollow" target="_blank" title="Share on Pinterest"><i class="fa fa-pinterest"></i></a>
+                                    <a href="" onclick="" rel="nofollow" target="_blank" title="Share this on Facebook">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="" rel="nofollow" target="_blank" title="Tweet This!">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="" onclick="" target="_blank" title="Share this on Google+">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                    <a class="social-iconnbt" href="">
+                                        <i class="fa fa-pinterest"></i>
+                                    </a>
                                 </div>
                                 <div class="readmore">
                                     <a href="/?page=detail&id=1">Read More</a>
