@@ -2,6 +2,7 @@
 
 namespace app\modules\post\controllers;
 
+use app\helper\ModuleHelper;
 use yii\web\Controller;
 
 /**
