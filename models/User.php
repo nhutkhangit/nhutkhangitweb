@@ -6,6 +6,7 @@ use Yii;
 use yii\base\NotSupportedException;
 use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveRecord;
+use yii\helpers\ArrayHelper;
 use yii\web\IdentityInterface;
 
 /**
@@ -24,7 +25,7 @@ use yii\web\IdentityInterface;
  * @property string $avatar
  * @property string $phone_number
  *
- * @property \app\models\UserRole $role
+ * @property \app\models\UserRole[] $roles
  */
 class User extends ActiveRecord implements IdentityInterface{
 
@@ -33,6 +34,8 @@ class User extends ActiveRecord implements IdentityInterface{
 	const STATUS_INACTIVE = 0;
 
 	const STATUS_ACTIVE = 10;
+
+	const ADMIN_ROLE = 'Admin';
 
 	public $password;
 
@@ -48,7 +51,7 @@ class User extends ActiveRecord implements IdentityInterface{
 	 */
 	public function behaviors(){
 		return [
-			TimestampBehavior::className(),
+			TimestampBehavior::class,
 		];
 	}
 
@@ -97,29 +100,29 @@ class User extends ActiveRecord implements IdentityInterface{
 	}
 
 	/**
-	 * {@inheritdoc}
+	 * @param mixed $token
+	 * @param null $type
+	 *
+	 * @return void|\yii\web\IdentityInterface|null
+	 * @throws \yii\base\NotSupportedException
 	 */
 	public static function findIdentityByAccessToken($token, $type = NULL){
 		throw new NotSupportedException('"findIdentityByAccessToken" is not implemented.');
 	}
 
 	/**
-	 * Finds user by username
+	 * @param $username
 	 *
-	 * @param string $username
-	 *
-	 * @return static|null
+	 * @return \app\models\User|null
 	 */
 	public static function findByUsername($username){
 		return static::findOne(['username' => $username, 'status' => self::STATUS_ACTIVE]);
 	}
 
 	/**
-	 * Finds user by password reset token
+	 * @param $token
 	 *
-	 * @param string $token password reset token
-	 *
-	 * @return static|null
+	 * @return \app\models\User|null
 	 */
 	public static function findByPasswordResetToken($token){
 		if (!static::isPasswordResetTokenValid($token)){
@@ -133,9 +136,7 @@ class User extends ActiveRecord implements IdentityInterface{
 	}
 
 	/**
-	 * Finds out if password reset token is valid
-	 *
-	 * @param string $token password reset token
+	 * @param $token
 	 *
 	 * @return bool
 	 */
@@ -172,11 +173,9 @@ class User extends ActiveRecord implements IdentityInterface{
 	}
 
 	/**
-	 * Validates password
+	 * @param $password
 	 *
-	 * @param string $password password to validate
-	 *
-	 * @return bool if password provided is valid for current user
+	 * @return bool
 	 */
 	public function validatePassword($password){
 		return Yii::$app->security->validatePassword($password, $this->password_hash);
@@ -192,21 +191,21 @@ class User extends ActiveRecord implements IdentityInterface{
 	}
 
 	/**
-	 * Generates "remember me" authentication key
+	 * @throws \yii\base\Exception
 	 */
 	public function generateAuthKey(){
 		$this->auth_key = Yii::$app->security->generateRandomString();
 	}
 
 	/**
-	 * Generates new password reset token
+	 * @throws \yii\base\Exception
 	 */
 	public function generatePasswordResetToken(){
 		$this->password_reset_token = Yii::$app->security->generateRandomString() . '_' . time();
 	}
 
 	/**
-	 * Removes password reset token
+	 * @inheritDoc
 	 */
 	public function removePasswordResetToken(){
 		$this->password_reset_token = NULL;
@@ -216,17 +215,20 @@ class User extends ActiveRecord implements IdentityInterface{
 	 * @return \yii\db\ActiveQuery
 	 * @throws \yii\base\InvalidConfigException
 	 */
-//	public function getRole(){
-//		return $this->hasOne(Role::classname, ['id' => 'role_id'])
-//		            ->viaTable(UserRole::tableName(), ['user_id' => 'id']);
-//	}
+	public function getRoles(){
+		return $this->hasMany(Role::class, ['id' => 'role_id'])
+		            ->viaTable(UserRole::tableName(), ['user_id' => 'id']);
+	}
 
 	/**
 	 * @return bool
 	 */
 	public function isAdmin(){
-		if ($this->role->name == 'admin'){
-			return TRUE;
+		if (!empty($this->roles)){
+			$masters = ArrayHelper::getColumn($this->roles, 'name');
+			if (in_array(self::ADMIN_ROLE, $masters)){
+				return TRUE;
+			}
 		}
 
 		return FALSE;
