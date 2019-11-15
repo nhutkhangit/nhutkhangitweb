@@ -65,7 +65,8 @@ Class ModuleHelper{
 		$activeMenu = ArrayHelper::toArray($activeMenu);
 
 		usort($activeMenu, function ($a, $b){
-			return $a['sort'] <=> $b['sort'];
+//			return $a['sort'] <=> $b['sort'];
+			return ($a<$b)?-1:1;
 		});
 
 		$menu = json_decode(json_encode($activeMenu));
