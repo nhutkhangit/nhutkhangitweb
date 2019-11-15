@@ -7,4 +7,3 @@ class AdministratorController extends Controller{
 		return $this->render('index');
 	}
 }
-?>
